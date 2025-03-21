@@ -1,8 +1,11 @@
 import React from 'react'
-
+import Styles from  '../styles/contact.module.css'
 function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+        <p className={Styles.para}>Response From Contact page </p>
+        <p className={Styles.heading}>ok Response</p>       
+    </div>
   )
 }
 
